@@ -1,8 +1,0 @@
-Part 1 Answers
-
-1) int val is passed by value. int* ptr can modify the original variable through dereferencing, so it has pass-by-reference behavior.
-
-2) Final alpha = 20. alpha is copied into val, so val += 10 only changes the local copy, not alpha.
-
-3) Final beta = 30. We pass &beta, so ptr points to beta. *ptr += 10 modifies beta directly.
-
